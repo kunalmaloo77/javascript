@@ -8,12 +8,20 @@
   <script src="script.js" defer></script>
 </head>
 <body>
-  <div>
-    <h1 class="title">Car Game</h1>
-    <div id="game-container">
-      <div id="car"></div>
-      <div id="road"></div>
-      <div id="obstacle"></div>
+  <div class="carGame">
+    <h1 id="title">Car Game</h1>
+    <div id="welcomeContainer">
+      <h2>Welcome to the Car Game!</h2>
+      <p>Press Enter to start the game</p>
+      <p>Use the arrow keys to move the car</p>
+    </div>
+    <div id="gameContainer" class="hide">
+      <div>
+        <span id="score"></span>
+      </div>
+      <div class="road">
+        <div id="playerCar" ></div>
+      </div>
     </div>
   </div>
 </body>
